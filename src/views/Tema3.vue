@@ -273,6 +273,20 @@
             h4 Extracción, transformación y carga
             p.mb-3 <b>Extracción:</b> como su nombre lo indica, corresponde a la obtención de la información desde las diversas fuentes de datos (CRM, ERP, etc.) a una base de datos intermedia, llamada <i>data staging area</i> (DSA).
             p <b>Transformación:</b> es la etapa donde se homogenizan los datos de las diversas fuentes de datos, se limpian y se transforman de acuerdo con los indicadores que se quieran almacenar.
+            p.mb-3 <b>Carga:</b> los datos, una vez depurados y transformados, son cargados en el DW a través de los siguientes procedimientos, que, entre otros, dependen del tipo de aplicación que se otorgue a los datos:
+
+            p.mb-0
+              i.fas.fa-circle.text-small.fad.me-2
+              | OLAP
+            p.mb-0
+              i.fas.fa-circle.text-small.fad.me-2
+              | <i>Query and reporting</i>
+            p.mb-0
+              i.fas.fa-circle.text-small.fad.me-2
+              | <i>Executive information system (EIS)</i>
+            p.mb-0
+              i.fas.fa-circle.text-small.fad.me-2
+              | <i>Data mining</i> o minería de datos
 
           .col-lg-6
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
@@ -283,30 +297,6 @@
               img(src='@/assets/curso/temas/t3/f21.png', alt='El Diseño de un data warehouse tiene diferentes componentes que conforman los procesos para construir herramientas analíticas que facilitan tomar decisiones basadas en la información del negocio. El primer componente lo conforman las fuentes de informació')
               figcaption Nota. Reproducida de Diseño de un data warehouse para medir el desarrollo disciplinar en instituciones académicas. Investigación biotecnológica, 31(72), 161-181. Gorbea, S. y Madera, M. (2017).
 
-        .row.justify-content-around.align-items-center
-          .col-lg-6.mb-4.mb-lg-0
-            p.mb-3 <b>Carga:</b> los datos, una vez depurados y transformados, son cargados en el DW a través de los siguientes procedimientos, que, entre otros, dependen del tipo de aplicación que se otorgue a los datos:
-
-            p
-              i.fas.fa-circle.text-small.fad.me-2
-              | OLAP
-            p
-              i.fas.fa-circle.text-small.fad.me-2
-              | <i>Query and reporting</i>
-            p
-              i.fas.fa-circle.text-small.fad.me-2
-              | <i>Executive information system (EIS)</i>
-            p
-              i.fas.fa-circle.text-small.fad.me-2
-              | <i>Data mining</i> o minería de datos
-
-
-          .col-lg-6
-            .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-              p.mb-0 <i>Referente de una arquitectura de bodega de datos</i>
-            figure
-              img(src='@/assets/curso/temas/t3/f21.png', alt='')
-              figcaption Nota. Reproducida de Diseño de un data warehouse para medir el desarrollo disciplinar en instituciones académicas. Investigación biotecnológica, 31(72), 161-181. Gorbea, S. y Madera, M. (2017).
 </template>
 
 <script>
