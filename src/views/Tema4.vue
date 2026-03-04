@@ -288,7 +288,7 @@
               p
                 i.fas.fa-circle.text-small.fad.me-2
                 | Consulta que sea por medio de cubos multidimensionales.
-
+              p Tomando como base el modelo multidimensional propio, se debe diseñar un modelo físico con los nombres de las tablas, campos y tipos de datos:
           .col-lg-8
             .mt-4
               .titulo-sexto.color-acento-contenido(data-aos='fade-right')
@@ -299,19 +299,6 @@
                 img.mb-3(src='@/assets/curso/temas/t4/f12.svg', alt='En la figura se detalla la dimensión-tiempo, hechos-ventas, dimensión-producto, dimensión-cliente, dimensión-sucursal, dimensión-empleado, dimensión-profesión, dimensión-sexo, dimensión-ciudad, dimensión-cargo y dimensión-recibo.')
                 figcaption Nota. Reproducida de Diseño de una guía general para construir una bodega de datos del área de ventas de una empresa [Tesis de pregrado, Universidad Libre]. Repositorio Unilibre. Roldán, D. E. (2015).
 
-        .row.justify-content-center.align-items-start(titulo="2")
-          .col-lg-4.mb-4.mb-lg-0
-            p.mt-5 Tomando como base el modelo multidimensional propio, se debe diseñar un modelo físico con los nombres de las tablas, campos y tipos de datos:
-
-          .col-lg-8
-            .mt-4
-              .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-                h4.mb-0 Figura 12.
-                p.mb-0 <i>Referente de un modelo físico</i>
-
-              figure
-                img.mb-3(src='@/assets/curso/temas/t4/f13.svg', alt='En la figura se detalla la dimensión-tiempo, hechos-ventas, dimensión-producto, dimensión-cliente, dimensión-sucursal, dimensión-empleado, dimensión-profesión, dimensión-sexo, dimensión-ciudad, dimensión-cargo y dimensión-recibo.')
-                figcaption Nota. Reproducida de Diseño de una guía general para construir una bodega de datos del área de ventas de una empresa [Tesis de pregrado, Universidad Libre]. Repositorio Unilibre. Roldán, D. E. (2015).
 
         .row.justify-content-center.align-items-start(titulo="3")
           .col-lg-4.mb-4.mb-md-0
@@ -319,7 +306,7 @@
 
           .col-lg-8
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-                h4.mb-0 Figura 13.
+                h4.mb-0 Figura 12.
                 p.mb-0 <i>Referente de características de un servidor</i>
 
             figure
@@ -332,7 +319,7 @@
 
           .col-lg-8
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-              h4.mb-0 Figura 14.
+              h4.mb-0 Figura 13.
               p.mb-0 <i>Referente de un modelo físico</i>
 
             figure
